@@ -1,0 +1,36 @@
+.alerta {
+  text-align: center;
+  color: white;
+  margin: 0.3rem 30%;
+  border-radius: 5px;
+  &.error {
+    background-color: rgb(141, 46, 8);
+  }
+  &.exito {
+    background-color: $verde;
+  }
+}
+table.propiedades {
+  text-align: center;
+  margin-top: 4rem;
+  width: 100%;
+  border-spacing: 0;
+  thead {
+    background-color: $verde;
+    th {
+      color: $blanco;
+      padding: 2rem;
+    }
+  }
+  tbody {
+    background-color: rgb(87, 119, 69);
+    td {
+      border: 1px solid black;
+    }
+  }
+  .imagen-tabla {
+    display: block;
+    margin: auto;
+    width: 20rem;
+  }
+}
